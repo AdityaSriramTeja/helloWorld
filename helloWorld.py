@@ -10,3 +10,6 @@ name = input("what is your name? ")
 print(name)
 age = input("what is your age? ")
 print(name + " is " + age + " years old")
+if(age > 10):
+    print(name + " is in elementary school")
+
