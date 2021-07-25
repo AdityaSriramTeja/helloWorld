@@ -11,9 +11,15 @@ print(y/x)
 #input
 name = input("what is your name? ")
 print(name)
-age = input("what is your age? ")
-print(name + " is " + age + " years old")
+age = int(input("what is your age? "))
+
 #if condition
-if(age < 10):
+if(age < 14 and age > 0 ):
     print(name + " is in elementary school")
+elif(age > 15 and age < 18):
+    print(name + " is in highschool")
+elif(age < 0):
+    print("age invalid")
+else: 
+    print(name + " is an adult")
 
